@@ -1,0 +1,156 @@
+@import "../variables.scss";
+
+/**
+ * WP-Admin elements
+ */
+body.teydeastudio-settings-page {
+	#wpcontent {
+		padding-left: 0;
+	}
+
+	#wpbody-content > .notice {
+		display: none;
+	}
+}
+
+/**
+ * Settings container
+ */
+.tsc-settings-container {
+	/**
+	 * Header section
+	 */
+	&__header {
+		align-items: center;
+		background-color: #fff;
+		border-bottom: 1px solid $border-color;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row;
+		gap: 16px;
+		height: 65px;
+		padding: 12px 16px;
+		position: relative;
+
+		h1 {
+			display: none;
+			margin: 0;
+			padding: 0;
+			line-height: 1;
+			font-size: 20px;
+
+			@media (min-width: 769px) {
+				display: block;
+			}
+		}
+	}
+
+	/**
+	 * Actions
+	 */
+	&__actions {
+		align-items: center;
+		display: flex;
+		flex: 1;
+		justify-content: flex-end;
+	}
+
+	/**
+	 * Container section
+	 */
+	&__container {
+		position: relative;
+	}
+
+	/**
+	 * Snackbar list
+	 */
+	.components-snackbar-list {
+		height: 100vh;
+		top: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		position: fixed;
+		padding: 0 0 24px 24px;
+	}
+
+	/**
+	 * Panel row
+	 */
+	&__row {
+		&--with-separator {
+			border-top: 1px solid $border-color;
+			padding-top: 1rem;
+			margin-top: 1rem;
+		}
+	}
+
+	/**
+	 * Table
+	 */
+	&__table {
+		border-collapse: collapse;
+		table-layout: fixed;
+		width: 100%;
+
+		code {
+			color: $text-color--black;
+			font-size: 11px;
+			padding: 1px 4px 0;
+		}
+
+		th {
+			text-align: left;
+		}
+
+		td {
+			border-top: 1px solid #eee;
+		}
+
+		th, td {
+			padding: 6px 0 5px;
+
+			&:not(:last-child) {
+				padding-right: 1em;
+			}
+		}
+
+		em {
+			color: $text-color--gray;
+			font-style: italic;
+		}
+	}
+
+	/**
+	 * Code element in panel title
+	 */
+	.components-panel__body-title code {
+		color: $text-color--black;
+		font-size: 11px;
+		margin: 0 0 0 .5rem;
+		padding: 1px 4px 0;
+	}
+
+	/**
+	 * Adjustments - needs review from time to time
+	 */
+	.components-panel__row > div {
+		width: 100%;
+	}
+
+	.components-notice {
+		&.is-info {
+			margin: 0 0 8px;
+			background-color: $background-color--info;
+		}
+
+		&.is-error {
+			margin: 0;
+		}
+
+		p {
+			margin: 0;
+		}
+	}
+}

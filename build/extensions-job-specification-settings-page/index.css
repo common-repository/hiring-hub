@@ -1,0 +1,5 @@
+.tsc-area-placeholder{border:1px dashed #e0e0e0;padding:48px;text-align:center}.tsc-area-placeholder p{margin:0}
+.tsc-dropdown-selection-button__content .components-popover__content{display:flex;flex-direction:column;width:200px}
+.tsc-date-control .components-base-control__field{margin-bottom:0}.tsc-date-control__dropdown-header{border-bottom:1px solid #e0e0e0;display:flex;gap:1em;justify-content:space-between;padding-bottom:.5em}.tsc-date-control__dropdown-header-actions{display:flex;flex:1;gap:1em;justify-content:flex-start}.tsc-date-control .components-dropdown{display:block}
+.tsc-field-notice{margin:8px 0 0}.tsc-field-notice p{color:#9e1313;font-size:12px;margin:0}
+.tsc-url-control .components-base-control__help{margin-bottom:0}

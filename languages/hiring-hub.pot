@@ -1,0 +1,1125 @@
+# Copyright (C) 2024 Teydea Studio
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hiring Hub 1.3.3\n"
+"Report-Msgid-Bugs-To: Teydea Studio <hello@teydeastudio.com\n"
+"Last-Translator: Teydea Studio <hello@teydeastudio.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: hiring-hub\n"
+
+#. Plugin Name of the plugin
+#: hiring-hub.php
+#: src/modules/block-patterns/class-module-block-patterns.php:44
+#: src/modules/class-module-block-editor.php:38
+#: src/modules/settings-page/class-module-settings-page.php:36
+msgid "Hiring Hub"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: hiring-hub.php
+msgid "https://teydeastudio.com/products/hiring-hub/?utm_source=Hiring+Hub&utm_medium=Plugin&utm_campaign=Plugin+research&utm_content=Plugin+header"
+msgstr ""
+
+#. Description of the plugin
+#: hiring-hub.php
+msgid "Create a job portal and career page with WordPress. Manage job boards and run recruitment activities, all within your WordPress website."
+msgstr ""
+
+#. Author of the plugin
+#: hiring-hub.php
+msgid "Teydea Studio"
+msgstr ""
+
+#. Author URI of the plugin
+#: hiring-hub.php
+msgid "https://teydeastudio.com/?utm_source=Hiring+Hub&utm_medium=WordPress.org&utm_campaign=Company+research&utm_content=Plugin+header"
+msgstr ""
+
+#: deps/php/universal-modules/class-module-settings-page.php:66
+#: deps/php/universal-modules/class-module-settings-page.php:214
+#: src/modules/settings-page/class-module-settings-page.php:33
+#: src/extensions/job-specification/block-job-specification-characteristics/index.js:152
+#: src/extensions/job-specification/block-job-specification-list/index.js:249
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-filter/index.js:59
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-search-field/index.js:44
+msgid "Settings"
+msgstr ""
+
+#: src/extensions/job-specification/block-job-specification-list/class-block-job-specification-list.php:198
+#: src/extensions/job-specification/query-loop-filtering/class-query-loop-filtering.php:105
+#: src/extensions/job-specification/block-job-specification-list/index.js:52
+msgid "Yes"
+msgstr ""
+
+#: src/extensions/job-specification/block-job-specification-list/class-block-job-specification-list.php:198
+#: src/extensions/job-specification/query-loop-filtering/class-query-loop-filtering.php:109
+#: src/extensions/job-specification/block-job-specification-list/index.js:52
+msgid "No"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:326
+#: src/extensions/job-specification/class-extension.php:431
+#: src/extensions/job-specification/class-extension.php:441
+#: src/extensions/job-specification/class-extension.php:454
+#: src/extensions/job-specification/class-extension.php:467
+#: src/extensions/job-specification/class-extension.php:622
+#: src/extensions/job-specification/class-extension.php:631
+msgid "New field"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:465
+msgid "The salary of the job or of an employee."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:657
+msgid "Employment type"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:659
+msgid "Full time"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:660
+msgid "Part time"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:661
+msgid "Contract"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:662
+msgid "Temporary"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:663
+msgid "Seasonal"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:664
+msgid "Internship"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:672
+msgid "Workplace"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:674
+msgid "Remote"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:675
+msgid "Hybrid"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:676
+msgid "On-site"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:684
+msgid "Paid time off"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:691
+msgid "Relocation bonus"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:699
+msgid "The base salary of the job or of an employee."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:701
+msgid "Base salary"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:707
+msgid "Educational background needed for the position."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:709
+msgid "Education requirements"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:714
+msgid "The legal requirements such as citizenship, visa and other documentation required for an applicant to this job."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:716
+msgid "Eligibility to work requirement"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:721
+msgid "A description of the employer, career opportunities and work environment for this position."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:723
+msgid "Employer overview"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:730
+msgid "Experience in place of education"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:735
+msgid "Description of skills and experience needed for the position."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:737
+msgid "Experience requirements"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:742
+msgid "Description of bonus and commission compensation aspects of the job."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:744
+msgid "Incentive compensation"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:749
+msgid "The industry associated with the job position."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:751
+msgid "Industry"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:756
+msgid "Description of benefits associated with the job."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:758
+msgid "Job benefits"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:763
+msgid "An indicator as to whether a position is available for an immediate start."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:765
+msgid "Immediate start"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:771
+msgid "The date on which a successful applicant for this job would be expected to start work. Choose a specific date in the future or use the \"Immediate start\" property to indicate the position is to be filled as soon as possible."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:773
+msgid "Start date"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:778
+msgid "A category describing the job, preferably using a term from a taxonomy such as BLS O*NET-SOC, ISCO-08 or similar, with the property repeated for each applicable value. Ideally the taxonomy should be identified, and both the textual label and formal code for the category should be provided. For historical reasons, any textual label and formal code provided as a literal may be assumed to be from O*NET-SOC."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:780
+msgid "Occupational category"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:785
+msgid "A description of the types of physical activity associated with the job."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:787
+msgid "Physical requirement"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:792
+msgid "Specific qualifications required for this role."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:794
+msgid "Qualifications"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:799
+msgid "Responsibilities associated with this role."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:801
+msgid "Responsibilities"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:806
+msgid "A description of any security clearance requirements of the job."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:808
+msgid "Security clearance requirement"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:813
+msgid "A description of any sensory requirements and levels necessary to function on the job, including hearing and vision."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:815
+msgid "Sensory requirement"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:820
+msgid "A statement of knowledge, skill, ability, task or any other assertion expressing a competency that is desired or required to fulfill this role or to work in this occupation."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:822
+msgid "Skills"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:827
+msgid "Any special commitments associated with this job posting. Valid entries include VeteranCommit, MilitarySpouseCommit, etc."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:829
+msgid "Special commitments"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:834
+msgid "The number of positions open for this job posting."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:838
+msgid "Total job openings"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:845
+msgid "Date after which the job advertisement becomes invalid."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:847
+msgid "Valid through"
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:852
+msgid "The typical working hours for this job (e.g. 1st shift, night shift, 8am-5pm)."
+msgstr ""
+
+#: src/extensions/job-specification/class-extension.php:854
+msgid "Work hours"
+msgstr ""
+
+#: src/extensions/job-specification/query-loop-filtering/class-query-loop-filtering.php:145
+#: src/extensions/job-specification/query-loop-filtering/index.js:58
+msgid "Job characteristics"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-filter/class-block-query-loop-filtering-filter.php:221
+msgid "Clear"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/class-extension.php:106
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-filter/index.js:47
+msgid "Published within"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/class-extension.php:112
+msgid "Last 24 hours"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/class-extension.php:116
+msgid "Last 3 days"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/class-extension.php:120
+msgid "Last 7 days"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/class-extension.php:124
+msgid "Last 14 days"
+msgstr ""
+
+#: src/modules/block-patterns/class-module-block-patterns.php:56
+msgid "Hiring Hub: Archives"
+msgstr ""
+
+#: src/modules/block-patterns/class-module-block-patterns.php:62
+msgid "Hiring Hub: Search & Filtering"
+msgstr ""
+
+#: src/modules/block-patterns/pattern-hiring-hub-archives.php:11
+msgid "No jobs were found."
+msgstr ""
+
+#: src/modules/block-patterns/pattern-hiring-hub-archives.php:25
+msgid "Published:"
+msgstr ""
+
+#: src/modules/block-patterns/pattern-hiring-hub-archives.php:42
+msgid "Apply now"
+msgstr ""
+
+#: src/modules/block-patterns/pattern-hiring-hub-search-and-filtering.php:10
+msgid "Search by job title or description"
+msgstr ""
+
+#: src/modules/block-patterns/pattern-hiring-hub-search-and-filtering.php:27
+msgid "Search"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:109
+#: src/modules/class-module-post-type.php:110
+msgid "Add New Job"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:111
+msgid "All Jobs"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:112
+msgctxt "The post type archive label used in nav menus. Default \"Post Archives\". Added in 4.4"
+msgid "Job archives"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:113
+msgid "Edit Job"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:114
+msgctxt "Screen reader text for the filter links heading on the post type listing screen. Default \"Filter posts list\"/\"Filter pages list\". Added in 4.4"
+msgid "Filter jobs list"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:115
+msgctxt "Overrides the \"Insert into post\"/\"Insert into page\" phrase (used when inserting media into a post). Added in 4.4"
+msgid "Insert into job"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:116
+msgctxt "Screen reader text for the items list heading on the post type listing screen. Default \"Posts list\"/\"Pages list\". Added in 4.4"
+msgid "Jobs list"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:117
+msgctxt "Screen reader text for the pagination heading on the post type listing screen. Default \"Posts list navigation\"/\"Pages list navigation\". Added in 4.4"
+msgid "Jobs list navigation"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:118
+msgctxt "Admin Menu text"
+msgid "Hiring Hub"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:119
+msgctxt "Post type general name"
+msgid "Jobs"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:120
+msgctxt "Add New on Toolbar"
+msgid "Job"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:121
+msgid "New Job"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:122
+msgid "No jobs found."
+msgstr ""
+
+#: src/modules/class-module-post-type.php:123
+msgid "No jobs found in Trash."
+msgstr ""
+
+#: src/modules/class-module-post-type.php:124
+msgid "Parent Jobs:"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:125
+msgid "Search Jobs"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:126
+msgctxt "Post type singular name"
+msgid "Job"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:127
+msgctxt "Overrides the \"Uploaded to this post\"/\"Uploaded to this page\" phrase (used when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this job"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:128
+msgid "View Job"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:129
+msgid "View Jobs"
+msgstr ""
+
+#: src/modules/class-module-post-type.php:137
+msgid "This is where you can create and manage a single job."
+msgstr ""
+
+#: src/modules/class-module-post-type.php:203
+msgid "What you will do:"
+msgstr ""
+
+#: src/modules/settings-page/class-module-settings-page.php:42
+msgid "Support forum"
+msgstr ""
+
+#: src/modules/settings-page/class-module-settings-page.php:46
+msgid "Contact email"
+msgstr ""
+
+#: src/modules/settings-page/class-module-settings-page.php:50
+msgid "Plugin on WordPress.org directory"
+msgstr ""
+
+#: src/modules/settings-page/class-module-settings-page.php:54
+msgid "Plugin on TeydeaStudio.com"
+msgstr ""
+
+#: src/modules/templates/class-module-templates.php:60
+msgid "Archive: Job"
+msgstr ""
+
+#: src/modules/templates/class-module-templates.php:61
+msgid "Displays an archive with the latest jobs"
+msgstr ""
+
+#: deps/js/components/src/date-control/index.js:70
+msgid "(empty)"
+msgstr ""
+
+#: deps/js/components/src/date-control/index.js:93
+msgid "Set as empty"
+msgstr ""
+
+#: deps/js/components/src/date-control/index.js:105
+msgid "Close"
+msgstr ""
+
+#. Translators: %s - field value.
+#: deps/js/components/src/integer-control/index.js:63
+msgid "\"%1$s\" is not within the accepted range (%2$d-%3$d)."
+msgstr ""
+
+#. Translators: %s - field value.
+#: deps/js/components/src/integer-control/index.js:66
+msgid "\"%1$s\" must be greater than or equal to %2$d."
+msgstr ""
+
+#: deps/js/components/src/promoted-plugins-panel/index.js:53
+msgid "Our other WordPress plugins"
+msgstr ""
+
+#: deps/js/components/src/salary-control/index.js:104
+msgid "Define the value"
+msgstr ""
+
+#: deps/js/components/src/salary-control/index.js:107
+msgid "Define the salary information below."
+msgstr ""
+
+#: deps/js/components/src/salary-control/index.js:108
+msgid "If not defined, salary information will not be attached to this job."
+msgstr ""
+
+#. Translators: %s - field's label.
+#: deps/js/components/src/salary-control/index.js:131
+msgid "%s from…"
+msgstr ""
+
+#. Translators: %s - field's label.
+#: deps/js/components/src/salary-control/index.js:154
+msgid "%s to…"
+msgstr ""
+
+#: deps/js/components/src/salary-control/index.js:176
+msgid "Optionally, keep the \"from\" and \"to\" field's values equal to use specific value instead of the range."
+msgstr ""
+
+#: deps/js/components/src/salary-control/index.js:181
+msgid "Currency"
+msgstr ""
+
+#. Translators: %s - field's label.
+#: deps/js/components/src/salary-control/index.js:185
+msgid "%s currency."
+msgstr ""
+
+#: deps/js/components/src/salary-control/index.js:187
+#: deps/js/components/src/salary-control/index.js:213
+#: src/extensions/job-specification/post-meta/index.js:73
+msgid "-- Choose --"
+msgstr ""
+
+#: deps/js/components/src/salary-control/index.js:207
+msgid "Unit"
+msgstr ""
+
+#. Translators: %s - field's label.
+#: deps/js/components/src/salary-control/index.js:211
+msgid "%s unit (\"per\" period)."
+msgstr ""
+
+#: deps/js/components/src/settings-sidebar/index.js:44
+msgid "Help & support"
+msgstr ""
+
+#: deps/js/components/src/settings-sidebar/index.js:83
+#: deps/js/components/src/settings-sidebar/index.js:96
+msgid "Write a review"
+msgstr ""
+
+#: deps/js/components/src/settings-sidebar/index.js:88
+msgid "If you like this plugin, share it with your network and write a review on WordPress.org to help others find it. Thank you!"
+msgstr ""
+
+#: deps/js/components/src/settings-sidebar/index.js:100
+msgid "Share your feedback"
+msgstr ""
+
+#: deps/js/components/src/settings-sidebar/index.js:105
+msgid "We're eager to hear your feedback, feature requests, suggestions for improvements etc; we're waiting for a message from you!"
+msgstr ""
+
+#: deps/js/components/src/settings-sidebar/index.js:113
+msgid "Contact us"
+msgstr ""
+
+#: deps/js/components/src/settings-tabs/index.js:81
+msgid "Settings saved"
+msgstr ""
+
+#: deps/js/components/src/settings-tabs/index.js:94
+msgid "Settings were not saved, something went wrong."
+msgstr ""
+
+#. Translators: %s - error message.
+#: deps/js/components/src/settings-tabs/index.js:100
+msgid "Settings were not saved due to validation error: %s Please update the invalid field value and try again."
+msgstr ""
+
+#: deps/js/components/src/settings-tabs/index.js:201
+msgid "Saving…"
+msgstr ""
+
+#: deps/js/components/src/settings-tabs/index.js:202
+msgid "Save all settings"
+msgstr ""
+
+#: deps/js/components/src/settings-tabs/index.js:271
+msgid "Loading…"
+msgstr ""
+
+#: deps/js/components/src/settings-tabs/index.js:286
+msgid "Settings fetch failed."
+msgstr ""
+
+#: deps/js/components/src/settings-tabs/index.js:287
+msgid "Please try again; if the issue will be repeating, reach out to our support team."
+msgstr ""
+
+#. Translators: %s - field value.
+#: deps/js/components/src/url-control/index.js:61
+msgid "\"%s\" is not a valid URL; field value has been emptied. Please put the valid URL or leave the field empty."
+msgstr ""
+
+#: src/extensions/apply-on-link/block-apply-on-link/index.js:72
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-button/index.js:44
+msgid "Button text…"
+msgstr ""
+
+#: src/extensions/apply-on-link/block-apply-on-link/index.js:92
+msgid "Note: The \"Apply on\" link's field value is empty or invalid; please fill it in the post's panel (on the right side). Without this value being correctly set, the \"Apply now\" button will not be rendered on the front-end."
+msgstr ""
+
+#: src/extensions/apply-on-link/post-meta/index.js:45
+msgid "Apply on link"
+msgstr ""
+
+#: src/extensions/apply-on-link/post-meta/index.js:49
+msgid "URL or email address"
+msgstr ""
+
+#: src/extensions/apply-on-link/post-meta/index.js:50
+msgid "Link to use for the \"Apply\" button, under which candidates can apply for this position."
+msgstr ""
+
+#: src/extensions/job-specification/block-job-specification-characteristics/index.js:155
+msgid "Show all enabled job specification characteristics"
+msgstr ""
+
+#: src/extensions/job-specification/block-job-specification-characteristics/index.js:179
+msgid "Allow following characteristics:"
+msgstr ""
+
+#: src/extensions/job-specification/block-job-specification-characteristics/index.js:180
+msgid "If a characteristic is disabled at the post level, it will not be displayed anyway. In this settings you control whether or not to display characteristics that are enabled at the post level."
+msgstr ""
+
+#: src/extensions/job-specification/block-job-specification-list/index.js:252
+msgid "Show all job specification items"
+msgstr ""
+
+#: src/extensions/job-specification/block-job-specification-list/index.js:276
+msgid "Allow following items:"
+msgstr ""
+
+#: src/extensions/job-specification/post-meta/index.js:58
+#: src/extensions/job-specification/settings-page/index.js:275
+msgid "Job specification"
+msgstr ""
+
+#. Translators: %1$s - comma separated list of possible values; %2$s - summary of allowed choices number; %3$s - help content.
+#: src/extensions/job-specification/post-meta/index.js:120
+msgid "Choose %1$s. Possible values include: %2$s. %3$s"
+msgstr ""
+
+#: src/extensions/job-specification/post-meta/index.js:123
+msgid "as many values as you want"
+msgstr ""
+
+#. Translators: %s - singular or plural text.
+#: src/extensions/job-specification/post-meta/index.js:126
+msgid "up to %s"
+msgstr ""
+
+#. Translators: %d - number of allowed choices.
+#: src/extensions/job-specification/post-meta/index.js:129
+msgid "%d value"
+msgid_plural "%d values"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/extensions/job-specification/post-meta/index.js:286
+msgid "Toggles"
+msgstr ""
+
+#. Translators: %s - field name.
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:29
+msgid "Spec: %s <code>Select (dropdown) field</code>"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:39
+#: src/extensions/job-specification/settings-page/component-boolean-field-configuration.js:45
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:50
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:50
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:40
+#: src/extensions/job-specification/settings-page/component-text-field-configuration.js:39
+#: src/extensions/job-specification/settings-page/component-url-field-configuration.js:40
+msgid "Name"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:41
+#: src/extensions/job-specification/settings-page/component-boolean-field-configuration.js:47
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:52
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:52
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:42
+#: src/extensions/job-specification/settings-page/component-text-field-configuration.js:41
+#: src/extensions/job-specification/settings-page/component-url-field-configuration.js:42
+msgid "The name of this specification."
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:60
+msgid "Possible values"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:62
+msgid "One value per line."
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:82
+msgid "Number of choices allowed"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:84
+msgid "Define how many choices are allowed for each single job."
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:87
+msgid "Unlimited"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:91
+msgid "Up to 1"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:95
+msgid "Up to 2"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:99
+msgid "Up to 3"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:103
+msgid "Up to 4"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:107
+msgid "Up to 5"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:111
+msgid "Up to 6"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:115
+msgid "Up to 7"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:119
+msgid "Up to 8"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:123
+msgid "Up to 9"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:127
+msgid "Up to 10"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:149
+#: src/extensions/job-specification/settings-page/component-boolean-field-configuration.js:96
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:121
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:174
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:150
+#: src/extensions/job-specification/settings-page/component-text-field-configuration.js:80
+#: src/extensions/job-specification/settings-page/component-url-field-configuration.js:81
+msgid "Help content"
+msgstr ""
+
+#. Translators: %s - spec name.
+#: src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js:178
+#: src/extensions/job-specification/settings-page/component-boolean-field-configuration.js:125
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:150
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:203
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:179
+#: src/extensions/job-specification/settings-page/component-text-field-configuration.js:109
+#: src/extensions/job-specification/settings-page/component-url-field-configuration.js:110
+msgid "Delete the \"%s\" spec"
+msgstr ""
+
+#. Translators: %s - field name.
+#: src/extensions/job-specification/settings-page/component-boolean-field-configuration.js:35
+msgid "Spec: %s <code>Toggle field</code>"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-boolean-field-configuration.js:68
+msgid "Default value"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-boolean-field-configuration.js:73
+msgid "Enable by default"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-boolean-field-configuration.js:76
+msgid "This field value will be \"on\" by default."
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-boolean-field-configuration.js:77
+msgid "This field value will be \"off\" by default."
+msgstr ""
+
+#. Translators: %s - field name.
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:40
+msgid "Spec: %s <code>Date field</code>"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:72
+msgid "Empty value allowance"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:76
+msgid "Allow empty value"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:79
+msgid "The empty value will be allowed."
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:80
+msgid "The empty value will not be allowed."
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-date-field-configuration.js:99
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:71
+#: src/extensions/job-specification/settings-page/component-text-field-configuration.js:60
+#: src/extensions/job-specification/settings-page/component-url-field-configuration.js:61
+msgid "Default value of this field"
+msgstr ""
+
+#. Translators: %s - field name.
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:40
+msgid "Spec: %s <code>Integer field</code>"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:94
+msgid "Minimum valid value of this field"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:119
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:123
+msgid "Define maximum valid value"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-integer-field-configuration.js:148
+msgid "Maximum valid value of this field"
+msgstr ""
+
+#. Translators: %s - field name.
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:30
+msgid "Spec: %s <code>Salary field</code>"
+msgstr ""
+
+#. Translators: %s - spec name.
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:62
+msgid "Default \"%s from…\" value"
+msgstr ""
+
+#. Translators: %s - spec name.
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:86
+msgid "Default \"%s to…\" value"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:108
+msgid "Units"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:110
+msgid "One value per line. First row will be used as a default choice."
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:129
+msgid "Currencies"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/component-salary-field-configuration.js:131
+msgid "One value per line. First row will be used as a default choice. Use ISO 4217 currency format."
+msgstr ""
+
+#. Translators: %s - field name.
+#: src/extensions/job-specification/settings-page/component-text-field-configuration.js:29
+msgid "Spec: %s <code>Text field</code>"
+msgstr ""
+
+#. Translators: %s - field name.
+#: src/extensions/job-specification/settings-page/component-url-field-configuration.js:30
+msgid "Spec: %s <code>URL field</code>"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:31
+#: src/modules/schema/component-tab-schema.js:309
+msgid "Date field"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:53
+#: src/modules/schema/component-tab-schema.js:313
+msgid "Integer field"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:75
+#: src/modules/schema/component-tab-schema.js:315
+msgid "Salary field"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:97
+msgid "Select (dropdown) field"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:119
+#: src/modules/schema/component-tab-schema.js:317
+msgid "Text field"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:141
+#: src/modules/schema/component-tab-schema.js:307
+msgid "Toggle field"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:163
+#: src/modules/schema/component-tab-schema.js:321
+msgid "URL field"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:279
+msgid "Manage the job specification configurations in this section. Add as many specs as you need."
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:283
+msgid "Add new specification"
+msgstr ""
+
+#: src/extensions/job-specification/settings-page/index.js:292
+msgid "You don't have any job specification field configured yet. Let's add one!"
+msgstr ""
+
+#. Translators: %s - item name.
+#: src/extensions/job-specification/settings-page/index.js:343
+msgid "%s (Job specification)"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-filter/index.js:62
+msgid "Filter to display"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-filter/index.js:80
+msgid "Render as"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-filter/index.js:84
+msgid "Dropdown"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-filter/index.js:88
+msgid "Inline, in column"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-filter/index.js:92
+msgid "Inline, in row"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-search-field/index.js:47
+msgid "Field's placeholder"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:60
+msgid "Job's publish date"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:68
+msgid "Job's excerpt"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:76
+msgid "Set to \"true\" if Job's \"Apply on Link\" field contains a valid link; otherwise \"false\""
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:256
+msgid "Job's title"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:272
+msgid "Direct link (URL, permalink) to a job"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:311
+msgid "Date or Text field"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:319
+msgid "Text or URL field"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:347
+msgid "No data source set"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:397
+msgid "Configure the Schema.org markup to improve the discoverability of the Job posts by presenting their data in a structured way. Find out more about this on the <a>Schema.org</a> website."
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:411
+msgid "Property"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:414
+msgid "Supported types"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:417
+msgid "Data source"
+msgstr ""
+
+#: src/modules/schema/component-tab-schema.js:441
+msgid "Not supported yet"
+msgstr ""
+
+#: src/modules/schema/index.js:36
+msgid "Schema.org"
+msgstr ""
+
+#: src/modules/settings-page/component-tab-general.js:40
+msgid "Manage the general plugin settings in this section."
+msgstr ""
+
+#: src/modules/settings-page/component-tab-general.js:46
+msgid "Archives page slug"
+msgstr ""
+
+#. Translators: optional hint content.
+#: src/modules/settings-page/component-tab-general.js:50
+msgid "Slug of the job archives page; must not be empty. %s"
+msgstr ""
+
+#. Translators: %1$s - home url, %2$s - archives page slug.
+#: src/modules/settings-page/component-tab-general.js:56
+msgid "With the currently set value, the job archives page would be accessible under the %1$s/%2$s/ url."
+msgstr ""
+
+#: src/modules/settings-page/component-tab-general.js:88
+msgid "Single job post slug"
+msgstr ""
+
+#. Translators: optional hint content.
+#: src/modules/settings-page/component-tab-general.js:92
+msgid "Slug of the single job post; must not be empty. %s"
+msgstr ""
+
+#. Translators: %1$s - home url, %2$s - single job post slug.
+#: src/modules/settings-page/component-tab-general.js:98
+msgid "With the currently set value, the job offers would be accessible under the %1$s/%2$s/{single-job-slug} url."
+msgstr ""
+
+#: src/modules/settings-page/index.js:43
+msgid "General"
+msgstr ""
+
+#: src/modules/settings-page/index.js:78
+msgid "Password Policy & Complexity Requirements"
+msgstr ""
+
+#: src/modules/settings-page/index.js:79
+msgid "Set up the password policy and complexity requirements for the users of your WordPress website."
+msgstr ""
+
+#: src/modules/settings-page/index.js:83
+msgid "Password Reset Enforcement"
+msgstr ""
+
+#: src/modules/settings-page/index.js:84
+msgid "Force users to reset their WordPress passwords. Execute for all users at once, by role, or only for specific users."
+msgstr ""
+
+#: src/extensions/apply-on-link/block-apply-on-link/block.json
+msgctxt "block title"
+msgid "Apply on link"
+msgstr ""
+
+#: src/extensions/job-specification/block-job-specification-characteristics/block.json
+msgctxt "block title"
+msgid "Job specification characteristics"
+msgstr ""
+
+#: src/extensions/job-specification/block-job-specification-list/block.json
+msgctxt "block title"
+msgid "Job specification list"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-button/block.json
+msgctxt "block title"
+msgid "Query loop filtering: Button"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-container/block.json
+msgctxt "block title"
+msgid "Query loop filtering: Container"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-filter/block.json
+msgctxt "block title"
+msgid "Query loop filtering: Filter"
+msgstr ""
+
+#: src/extensions/query-loop-filtering/block-query-loop-filtering-search-field/block.json
+msgctxt "block title"
+msgid "Query loop filtering: Search field"
+msgstr ""

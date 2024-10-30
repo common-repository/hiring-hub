@@ -1,0 +1,11 @@
+@import "../variables.scss";
+
+.tsc-area-placeholder {
+	border: 1px dashed $border-color;
+	text-align: center;
+	padding: 48px;
+
+	p {
+		margin: 0;
+	}
+}

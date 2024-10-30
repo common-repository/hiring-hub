@@ -1,0 +1,176 @@
+@mixin shadow-container {
+	background-color: #fff;
+	border-color: #dedede;
+	border-radius: 4px;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: transparent 0 0 0 0, transparent 0 0 0 0, rgba(0, 0, 0, .05) 0 1px 2px 0;
+	box-sizing: border-box;
+}
+
+.wp-block-hiring-hub-query-loop-filtering-filter {
+	display: flex;
+	font-size: 12px;
+	gap: 1rem;
+	position: relative;
+
+	&--inline-column {
+		flex-direction: column;
+	}
+
+	&__button {
+		@include shadow-container;
+		align-items: center;
+		all: unset;
+		box-sizing: border-box;
+		cursor: pointer;
+		display: flex;
+		flex-direction: row;
+		gap: .8em;
+		justify-content: center;
+		padding: 1em;
+		white-space: nowrap;
+
+		span {
+			line-height: 1;
+		}
+
+		svg {
+			width: 1em;
+		}
+
+		&:focus,
+		&:hover {
+			border-color: #b5b5b5;
+		}
+	}
+
+	&__selection-summary:not(:empty)::before {
+		content: ': ';
+		font-weight: normal;
+	}
+
+	ul {
+		all: unset;
+		display: flex;
+		list-style: none;
+		flex-wrap: wrap;
+	}
+
+	&--dropdown ul,
+	&--inline-column ul {
+		flex-direction: column;
+	}
+
+	&__dropdown {
+		@include shadow-container;
+		display: none;
+		margin-top: 5px;
+		overflow: hidden;
+		position: absolute;
+		top: 100%;
+		width: 240px;
+		z-index: 2;
+
+		&--visible {
+			display: block;
+		}
+
+		header {
+			align-items: center;
+			all: unset;
+			border-bottom: 1px solid #eee;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			padding: 1em;
+
+			span {
+				font-weight: 500;
+				line-height: 1;
+			}
+
+			button {
+				all: unset;
+				cursor: pointer;
+				line-height: 1;
+				text-decoration: underline;
+
+				&:focus,
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+
+	&__choice {
+		button {
+			align-items: center;
+			all: unset;
+			box-sizing: border-box;
+			cursor: pointer;
+			display: flex;
+			flex-direction: row;
+			gap: 1em;
+			line-height: 1;
+			padding: 0 1em;
+
+			&:focus,
+			&:hover {
+				background-color: #eee;
+			}
+		}
+
+		&--selected button {
+			background-color: #eee;
+		}
+	}
+
+	&--inline-row &__choice button,
+	&--inline-column &__choice button {
+		border-radius: 4px;
+	}
+
+	&--inline-row &__choice button {
+		margin: 0 1px;
+	}
+
+	&--inline-column &__choice button {
+		margin: 1px 0;
+	}
+
+	&--dropdown &__choice button,
+	&--inline-column &__choice button {
+		width: 100%;
+	}
+
+	&__checkbox,
+	&__radio {
+		@include shadow-container;
+		height: 16px;
+		width: 16px;
+
+		svg {
+			display: none;
+		}
+
+		&--selected {
+			background-color: #111;
+			border-color: #111;
+
+			svg {
+				display: block;
+			}
+		}
+	}
+
+	&__radio {
+		border-radius: 100%;
+	}
+
+	&__label {
+		display: block;
+		line-height: 40px;
+	}
+}

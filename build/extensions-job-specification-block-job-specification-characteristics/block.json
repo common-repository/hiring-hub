@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "hiring-hub/job-specification-characteristics",
+  "title": "Job specification characteristics",
+  "category": "hiring-hub",
+  "icon": "flag",
+  "textdomain": "hiring-hub",
+  "attributes": {
+    "showAllEnabledCharacteristics": {
+      "type": "boolean",
+      "default": true
+    },
+    "disallowedCharacteristics": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "supports": {
+    "color": {
+      "text": true,
+      "background": false
+    },
+    "spacing": {
+      "margin": [
+        "horizontal",
+        "vertical"
+      ],
+      "padding": [
+        "horizontal",
+        "vertical"
+      ],
+      "blockGap": true
+    },
+    "typography": {
+      "fontSize": true,
+      "lineHeight": true,
+      "__experimentalFontFamily": true,
+      "__experimentalFontWeight": true,
+      "__experimentalFontStyle": true,
+      "__experimentalTextTransform": true,
+      "__experimentalDefaultControls": {
+        "fontSize": true
+      }
+    },
+    "layout": {
+      "allowInheriting": false,
+      "allowSizingOnChildren": false,
+      "allowCustomContentAndWideSize": false,
+      "default": {
+        "type": "flex",
+        "orientation": "horizontal"
+      }
+    },
+    "reusable": false
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "usesContext": [
+    "postId",
+    "postType"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "hiring-hub/apply-on-link",
+    "title": "Apply on link",
+    "category": "hiring-hub",
+    "icon": "external",
+    "textdomain": "hiring-hub",
+    "attributes": {
+        "text": {
+            "type": "string",
+            "source": "html",
+            "selector": "span",
+            "default": "Apply"
+        }
+    },
+    "supports": {
+        "color": {
+            "gradients": true
+        },
+        "filter": {
+            "duotone": true
+        },
+        "typography": {
+            "fontSize": true,
+            "lineHeight": true
+        },
+        "shadow": true,
+        "spacing": {
+            "margin": [ "horizontal", "vertical" ],
+            "padding": [ "horizontal", "vertical" ]
+        },
+        "__experimentalBorder": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        }
+    },
+    "editorScript": "file:./index.js",
+    "style": "file:./style-index.css",
+    "usesContext": [
+        "postId",
+        "postType"
+    ]
+}

@@ -1,0 +1,92 @@
+@import "../variables.scss";
+
+/**
+ * Note: this line is only needed for the
+ * tabs component, hence adding it here.
+ */
+.tsc-settings-container__header::after {
+	content: '';
+	width: 100%;
+	position: absolute;
+	height: 1px;
+	background-color: $border-color;
+	bottom: -49px;
+	left: 0;
+}
+
+/**
+ * Settings tabs
+ */
+.tsc-settings-tabs {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	max-width: 966px;
+	padding: 0 16px;
+	margin: 0 auto;
+
+	@media (min-width: 769px) {
+		flex-direction: row;
+	}
+
+	/**
+	 * Wrapper
+	 */
+	&__wrapper {
+		width: 100%;
+	}
+
+	/**
+	 * Container
+	 */
+	&__container[aria-pressed="true"] {
+		z-index: 200;
+		position: relative;
+	}
+
+	/**
+	 * Actions
+	 */
+	&__actions {
+		text-align: right;
+		margin: 32px 0 16px;
+	}
+
+	/**
+	 * Placeholder for dynamically added
+	 * panels and elements
+	 */
+	&__placeholder {
+		border: 1px dashed $border-color;
+		text-align: center;
+		padding: 48px;
+
+		p {
+			margin: 0;
+		}
+	}
+
+	/**
+	 * Drag handle
+	 */
+	&__drag-handle-container {
+		position: relative;
+	}
+
+	&__drag-handle {
+		position: absolute;
+		left: -35px;
+		margin-top: 15px;
+		z-index: 100;
+		cursor: grab;
+	}
+
+	/**
+	 * Adjustments - needs review from time to time
+	 */
+	.components-tab-panel__tabs-item {
+		padding-left: 0;
+		padding-right: 0;
+		margin-right: 32px;
+	}
+}

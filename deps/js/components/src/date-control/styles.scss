@@ -1,0 +1,38 @@
+@import "../variables.scss";
+
+/**
+ * Date control
+ */
+.tsc-date-control {
+	.components-base-control__field {
+		margin-bottom: 0;
+	}
+
+	/**
+	 * Dropdown header
+	 */
+	&__dropdown-header {
+		border-bottom: 1px solid $border-color;
+		display: flex;
+		justify-content: space-between;
+		gap: 1em;
+		padding-bottom: .5em;
+	}
+
+	/**
+	 * Dropdown header actions
+	 */
+	&__dropdown-header-actions {
+		display: flex;
+		flex: 1;
+		justify-content: flex-start;
+		gap: 1em;
+	}
+
+	/**
+	 * Adjustments - needs review from time to time
+	 */
+	.components-dropdown {
+		display: block;
+	}
+}

@@ -1,0 +1,21 @@
+@import "../variables.scss";
+
+.tsc-panel-fields-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.tsc-panel-fields-container > div + div {
+	border-top: 1px solid $border-color;
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+
+.tsc-panel-fields-container .components-dropdown {
+	display: block;
+}
+
+.tsc-panel-fields-container .components-dropdown .components-button.is-tertiary {
+	border: 1px solid $border-color--darker;
+	justify-content: center;
+}

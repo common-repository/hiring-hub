@@ -1,0 +1,63 @@
+{
+    "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+    "landingPage": "/wp-admin/admin.php?page=hiring-hub-settings-page",
+    "preferredVersions": {
+        "php": "8.3",
+        "wp": "6.6"
+    },
+    "features": {
+        "networking": true
+    },
+    "steps": [
+        {
+            "step": "login"
+        },
+        {
+            "step": "wp-cli",
+            "command": "wp site empty --yes"
+        },
+        {
+            "step": "setSiteOptions",
+            "options": {
+                "posts_per_page": "6",
+                "show_on_front": "page",
+                "permalink_structure": "/%25postname%25/"
+            }
+        },
+        {
+            "step": "runPHP",
+            "code": "<?php require '/wordpress/wp-load.php'; global $wp_rewrite; $wp_rewrite->flush_rules();"
+        },
+        {
+            "step": "installTheme",
+            "themeData": {
+                "resource": "wordpress.org/themes",
+                "slug": "careers"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginData": {
+                "resource": "wordpress.org/plugins",
+                "slug": "hiring-hub"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "importWxr",
+            "file": {
+                "resource": "url",
+                "url": "https://demo.teydeastudio.com/dumps/careers.WordPress.2024-10-11.xml"
+            }
+        },
+        {
+            "step": "runPHP",
+            "code": "<?php require_once 'wordpress/wp-load.php'; global $wpdb; $home_id = $wpdb->get_var( \"SELECT ID FROM $wpdb->posts WHERE post_type = 'page' AND post_title = 'Home'\" ); if ( null !== $home_id ) { update_option( 'page_on_front', strval( $home_id ) ); } $blog_id = $wpdb->get_var( \"SELECT ID FROM $wpdb->posts WHERE post_type = 'page' AND post_title = 'Blog'\" ); if ( null !== $blog_id ) { update_option( 'page_for_posts', strval( $blog_id ) ); } $logo_id = $wpdb->get_var( \"SELECT ID FROM $wpdb->posts WHERE post_type = 'attachment' AND post_name = 'logo'\" ); if ( null !== $blog_id ) { update_option( 'site_logo', strval( $logo_id ) ); }"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "hiring-hub/query-loop-filtering-container",
+    "title": "Query loop filtering: Container",
+    "category": "hiring-hub",
+    "icon": "filter",
+    "textdomain": "hiring-hub",
+    "supports": {
+        "align": [ "wide", "full" ],
+        "anchor": true,
+        "ariaLabel": true,
+        "alignWide": true,
+        "background": {
+            "backgroundImage": true,
+            "backgroundSize": true
+        },
+        "color": {
+            "background": true,
+            "enableContrastChecker": true,
+            "gradients": true,
+            "text": false
+        },
+        "dimensions": {
+            "minHeight": true
+        },
+        "html": false,
+        "layout": {
+            "allowSizingOnChildren": true,
+            "default": {
+                "type": "flex",
+                "orientation": "horizontal"
+            }
+        },
+        "position": {
+            "sticky": true
+        },
+        "shadow": true,
+        "spacing": {
+            "blockGap": true,
+            "margin": [ "top", "bottom" ],
+            "padding": true
+        },
+        "__experimentalBorder": {
+            "color": true,
+            "radius": true,
+            "style": true,
+            "width": true
+        }
+    },
+    "editorScript": "file:./index.js",
+    "style": "file:./style-index.css"
+}

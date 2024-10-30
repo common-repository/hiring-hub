@@ -1,0 +1,13 @@
+.wp-block-hiring-hub-job-specification-list {
+	.wp-block-hiring-hub-job-specification-list__item-label {
+		font-weight: bold;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	p span:not(:last-child)::after {
+		content: ', ';
+	}
+}

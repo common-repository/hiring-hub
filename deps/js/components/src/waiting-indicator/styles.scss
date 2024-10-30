@@ -1,0 +1,10 @@
+.tsc-waiting-indicator {
+	align-items: center;
+	display: flex;
+	gap: 16px;
+	padding: 13px 0;
+
+	svg, p {
+		margin: 0;
+	}
+}

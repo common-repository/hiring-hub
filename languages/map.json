@@ -1,0 +1,204 @@
+{
+    "src/modules/schema/component-tab-schema.js": [
+        "build/schema/index.js"
+    ],
+    "src/modules/schema/index.js": [
+        "build/schema/index.js"
+    ],
+    "deps/js/components/src/plugin-icon/index.js": [
+        "build/settings-page/index.js"
+    ],
+    "deps/js/components/src/promoted-plugins-panel/index.js": [
+        "build/settings-page/index.js"
+    ],
+    "deps/js/components/src/settings-container/index.js": [
+        "build/settings-page/index.js"
+    ],
+    "deps/js/components/src/settings-sidebar/index.js": [
+        "build/settings-page/index.js"
+    ],
+    "deps/js/components/src/settings-tabs/index.js": [
+        "build/settings-page/index.js"
+    ],
+    "deps/js/components/src/waiting-indicator/index.js": [
+        "build/settings-page/index.js"
+    ],
+    "deps/js/utils/src/render.js": [
+        "build/settings-page/index.js"
+    ],
+    "deps/js/utils/src/use-home-url.js": [
+        "build/settings-page/index.js"
+    ],
+    "src/modules/settings-page/component-tab-general.js": [
+        "build/settings-page/index.js"
+    ],
+    "src/modules/settings-page/index.js": [
+        "build/settings-page/index.js"
+    ],
+    "deps/js/utils/src/data-store.js": [
+        "build/extensions-apply-on-link-block-apply-on-link/index.js",
+        "build/extensions-apply-on-link-post-meta/index.js",
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js",
+        "build/extensions-job-specification-block-job-specification-list/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-query-loop-filtering/index.js"
+    ],
+    "deps/js/utils/src/to-camel-case.js": [
+        "build/extensions-apply-on-link-block-apply-on-link/index.js",
+        "build/extensions-apply-on-link-post-meta/index.js",
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js",
+        "build/extensions-job-specification-block-job-specification-list/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-query-loop-filtering/index.js"
+    ],
+    "deps/js/utils/src/ucfirst.js": [
+        "build/extensions-apply-on-link-block-apply-on-link/index.js",
+        "build/extensions-apply-on-link-post-meta/index.js",
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js",
+        "build/extensions-job-specification-block-job-specification-list/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-query-loop-filtering/index.js"
+    ],
+    "deps/js/utils/src/use-edited-post-id.js": [
+        "build/extensions-apply-on-link-block-apply-on-link/index.js",
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js",
+        "build/extensions-job-specification-block-job-specification-list/index.js"
+    ],
+    "deps/js/utils/src/use-edited-post-meta.js": [
+        "build/extensions-apply-on-link-block-apply-on-link/index.js",
+        "build/extensions-apply-on-link-post-meta/index.js",
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js",
+        "build/extensions-job-specification-block-job-specification-list/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-query-loop-filtering/index.js"
+    ],
+    "src/extensions/apply-on-link/block-apply-on-link/index.js": [
+        "build/extensions-apply-on-link-block-apply-on-link/index.js"
+    ],
+    "src/extensions/apply-on-link/utils.js": [
+        "build/extensions-apply-on-link-block-apply-on-link/index.js",
+        "build/extensions-apply-on-link-post-meta/index.js"
+    ],
+    "deps/js/components/src/detect-outside/index.js": [
+        "build/extensions-apply-on-link-post-meta/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "deps/js/components/src/field-notice/index.js": [
+        "build/extensions-apply-on-link-post-meta/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "deps/js/components/src/url-control/index.js": [
+        "build/extensions-apply-on-link-post-meta/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "deps/js/utils/src/build-id.js": [
+        "build/extensions-apply-on-link-post-meta/index.js",
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js",
+        "build/extensions-job-specification-block-job-specification-list/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "deps/js/utils/src/is-url.js": [
+        "build/extensions-apply-on-link-post-meta/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/apply-on-link/post-meta/index.js": [
+        "build/extensions-apply-on-link-post-meta/index.js"
+    ],
+    "deps/js/utils/src/are-arrays-equal.js": [
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js",
+        "build/extensions-job-specification-block-job-specification-list/index.js"
+    ],
+    "deps/js/utils/src/array-include-exclude.js": [
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js",
+        "build/extensions-job-specification-block-job-specification-list/index.js"
+    ],
+    "src/extensions/job-specification/block-job-specification-characteristics/index.js": [
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js"
+    ],
+    "src/extensions/job-specification/utils.js": [
+        "build/extensions-job-specification-block-job-specification-characteristics/index.js",
+        "build/extensions-job-specification-block-job-specification-list/index.js",
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-query-loop-filtering/index.js"
+    ],
+    "deps/js/utils/src/json.js": [
+        "build/extensions-job-specification-block-job-specification-list/index.js"
+    ],
+    "src/extensions/job-specification/block-job-specification-list/index.js": [
+        "build/extensions-job-specification-block-job-specification-list/index.js"
+    ],
+    "deps/js/components/src/date-control/index.js": [
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "deps/js/components/src/integer-control/index.js": [
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "deps/js/components/src/panel-field-help/index.js": [
+        "build/extensions-job-specification-post-meta/index.js"
+    ],
+    "deps/js/components/src/panel-fields-container/index.js": [
+        "build/extensions-job-specification-post-meta/index.js"
+    ],
+    "deps/js/components/src/salary-control/index.js": [
+        "build/extensions-job-specification-post-meta/index.js"
+    ],
+    "deps/js/utils/src/get-integer-within-range.js": [
+        "build/extensions-job-specification-post-meta/index.js",
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/job-specification/post-meta/index.js": [
+        "build/extensions-job-specification-post-meta/index.js"
+    ],
+    "src/extensions/job-specification/query-loop-filtering/index.js": [
+        "build/extensions-job-specification-query-loop-filtering/index.js"
+    ],
+    "deps/js/components/src/area-placeholder/index.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "deps/js/components/src/dropdown-selection-button/index.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/job-specification/settings-page/component-array-of-strings-field-configuration.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/job-specification/settings-page/component-boolean-field-configuration.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/job-specification/settings-page/component-date-field-configuration.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/job-specification/settings-page/component-integer-field-configuration.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/job-specification/settings-page/component-salary-field-configuration.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/job-specification/settings-page/component-text-field-configuration.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/job-specification/settings-page/component-url-field-configuration.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/job-specification/settings-page/index.js": [
+        "build/extensions-job-specification-settings-page/index.js"
+    ],
+    "src/extensions/query-loop-filtering/block-query-loop-filtering-button/index.js": [
+        "build/extensions-query-loop-filtering-block-query-loop-filtering-button/index.js"
+    ],
+    "src/extensions/query-loop-filtering/block-query-loop-filtering-container/index.js": [
+        "build/extensions-query-loop-filtering-block-query-loop-filtering-container/index.js"
+    ],
+    "src/extensions/query-loop-filtering/block-query-loop-filtering-filter/index.js": [
+        "build/extensions-query-loop-filtering-block-query-loop-filtering-filter/index.js"
+    ],
+    "src/extensions/query-loop-filtering/block-query-loop-filtering-search-field/index.js": [
+        "build/extensions-query-loop-filtering-block-query-loop-filtering-search-field/index.js"
+    ]
+}
